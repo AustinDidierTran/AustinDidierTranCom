@@ -6,7 +6,9 @@ html(ng-app="app")
         link(rel="stylesheet", href="/vendor/bootstrap/dist/css/bootstrap.css")
     body(ng-controller="mainCtrl as mainCtrl")
         h1 Austin-Didier Tran
-        button.btn.btn-primary(ng-repeat="tab in tabs") {{tab.name}}
+        ul(class="nav nav-pills red" role="tablist")
+            li(ng-repeat="tab in tabs" ng-class="{active:mainCtrl.isSelected(tab.id)}")
+                a(href ng-click="mainCtrl.selectTab(tab.id)") {{tab.name}}
         script(type="text/javascript", src="/vendor/angular/angular.js")
         script(type="text/javascript", src="/vendor/jquery/dist/jquery.js")
         script(type="text/javascript", src="/vendor/bootstrap/dist/js/bootstrap.js")

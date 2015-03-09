@@ -2,11 +2,12 @@ var express = require('express'),
     app = express(),
     stylus = require('stylus'),
     path = require('path'),
-    rootPath = path.normalize(__dirname);
+    rootPath = path.normalize(__dirname),
+    mongoose = require('mongoose');
 
 var compile = function(str, path) {
-        return stylus(str).set('filename', path);
-    }
+    return stylus(str).set('filename', path);
+}
 
 app.set('view engine', 'jade');
 
