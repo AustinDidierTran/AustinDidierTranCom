@@ -1,0 +1,13 @@
+doctype
+html(ng-app="app")
+    head
+        title Austin-Didier Tran
+        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet", href="/vendor/bootstrap/dist/css/bootstrap.css")
+    body(ng-controller="mainCtrl as mainCtrl")
+        h1 Austin-Didier Tran
+        button.btn.btn-primary(ng-repeat="tab in tabs") {{tab.name}}
+        script(type="text/javascript", src="/vendor/angular/angular.js")
+        script(type="text/javascript", src="/vendor/jquery/dist/jquery.js")
+        script(type="text/javascript", src="/vendor/bootstrap/dist/js/bootstrap.js")
+        script(type="text/javascript", src="/app/app.js")
