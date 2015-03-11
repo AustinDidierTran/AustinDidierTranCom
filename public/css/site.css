@@ -1,6 +1,9 @@
 h1 {
   font-family: Tahoma, Geneva, sans-serif;
 }
+a {
+  color: #555;
+}
 p {
   text-align: justify;
 }
@@ -25,4 +28,11 @@ p {
 }
 .footer {
   margin-right: 25px;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #ffb;
+  background-color: #555;
+  font-family: Tahoma, Geneva, sans-serif;
 }

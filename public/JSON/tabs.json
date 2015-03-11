@@ -1,21 +1,22 @@
 [
-
+	{
+		"ID": 0,
+		"name": "accueil",
+		"value": "Accueil"
+	},
 	{
 		"ID": 1,
 		"name": "experiences",
-		"value": "Expériences Professionnelles",
-		"templateURL": "HTML/experiences.html"
+		"value": "Expériences Professionnelles"
 	},
 	{
 		"ID": 2,
 		"name": "connaissances",
-		"value": "Connaissances Particulières",
-		"templateURL": "HTML/connaissances.html"
+		"value": "Connaissances Particulières"
 	},
 	{
 		"ID": 3,
 		"name": "scolaires",
-		"value": "Parcours Scolaire",
-		"templateURL": "HTML/scolaires.html"
+		"value": "Parcours Scolaire"
 	}
 ]
