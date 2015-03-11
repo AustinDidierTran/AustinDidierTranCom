@@ -1,0 +1,36 @@
+[
+    {
+        "ID": 0,
+        "institution": "Université de Sherbrooke",
+        "field": "Génie informatique",
+        "duration": "Automne 2014 à Automne 2018",
+		"picture": "Pictures/Scolaires/USherbrooke.jpg",
+        "description": [
+            "Basé sur l'apprentissage par projet (APP), le programme de génie informatique de l'Université de Sherbrooke offre une formation technique très pratique. À l'aide du régime coopératif, il offre 5 stages professionnels au courant du baccalauréat, soit 75 semaines d'expériences sur le marché du travail.",
+            "Étant jumelé avec le programme de génie électrique lors de la première année, le programme de génie informatique offre une formation allant au-delà de l'informatique et des projets de plus grande envergure."
+        ]
+    },
+    {
+        "ID": 1,
+        "institution": "Université de Sherbrooke",
+        "field": "Administration des affaires - Management (27 crédits)",
+        "duration": "Automne 2013 à Été 2014",
+		"picture": "Pictures/Scolaires/USherbrooke.jpg",
+        "description": [
+			"La faculté reposant sur de nombreuses concentrations, ce programme forme des finissants en management polyvalent grâce à la diversité des cours. Les étudiants ont accès à des cours de finance, comptabilité, marketing, gestion des ressources humaines et autres.",
+			"En complétant 27 crédits, j'ai réussi a acquérir des concepts de nombreux concepts de base. J'ai complété des cours de communication, de finance, de management, de comptabilité, de marketing, de gestion des ressources humaines, degestion d'informatique de système et destatistiques"]
+        
+    },
+	{
+        "ID": 2,
+        "institution": "Cégep de Sherbrooke",
+        "field": "Sciences informatiques et mathématiques (SIM)",
+        "duration": "Automne 2011 à Automne 2013",
+		"picture": "Pictures/Scolaires/cegep_sherbrooke.png",
+        "description": [
+			"Le programme de SIM ressemble beaucoup au programme de sciences naturels. La majeure différence entre ces deux programmes est que le programme de sciences informatiques et mathématiques a de la programmation au détriment des cours de biologie et de deux cours de chimie.",
+			"Au courant de mes études collégiales, j'ai appris la programmation en C++ et en Java. Étant expérimenté dans ces languages, je peux réutiliser ces bases dans l'apprentissage de d'autres languages informatiques."
+		]
+        
+		}
+	]

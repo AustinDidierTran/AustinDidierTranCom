@@ -1,0 +1,86 @@
+[
+	{
+        "ID": 0,
+        "name": "C++",
+        "picture": "Pictures/Connaissances/cplusplus.png",
+		"description": [
+            "Le C++ est le premier langage de programmation que j'ai appris. Il s'agit d'un langage permettant une programmation orientée objet. Étant très puissant, il est également très populaire; il est un des langages de programmation les plus utilisés dans le monde. C'est à l'aide de ce langage que j'ai appris la base de la programmation, et c'est également dans ce langage que je suis le plus expérimenté, n'ayant jamais arrêter de le pratiquer depuis mes débuts."
+		]
+	},
+	{
+        "ID": 1,
+        "name": "Java",
+        "picture": "Pictures/Connaissances/java.png",
+		"description": [
+            "Le Java est le deuxième langage de programmation que j'ai appris. Il s'agit d'un autre langage de programmation orientée objet. Il est très populaire dû à la facilité d'exporter des applets java sur le web, mais également grâce à la plateforme Android, dont la majorité de ses applications sont basées sur ce langage."
+		]
+	},
+	{
+        "ID": 2,
+        "name": "HTML5",
+        "picture": "Pictures/Connaissances/html5.png",
+		"description": [
+            "Le HTML5 est la nouvelle norme en matière de structures de page web. Étant très intéressé à devenir développeur web, je me dois de maîtriser sa syntaxe. Cependant, il est rare de développer des pages web seulement avec du HTML5, cela nécessite d'autres connaissances (voir ci-dessous)."
+		]
+	},
+	{
+        "ID": 3,
+        "name": "CSS3",
+        "picture": "Pictures/Connaissances/css3.png",
+		"description": [
+            "Le CSS (Cascading Style Sheets) est un langage décrivant la présentation des fichiers HTML. Il permet de définir des attributs à des classes dans la page web sans avoir à les définir dans les fichiers HTML, permettant de ne pas les surcharger et de les modifier plus rapidement."
+		]
+	},
+	{
+        "ID": 4,
+        "name": "JavaScript",
+        "picture": "Pictures/Connaissances/javascript.png",
+		"description": [
+            "Le JavaScript est un langage de programmation orientée objet très souvent utilisé dans les pages webs afin de les rendre interactive. Il est également à la base d'une nouvelle tendance, le MEAN Stack, les lettres de MEAN signifiant MongoDB, ExpressJS, AngularJS et Node.js, MongoDB étant programmé en C++ et les autres en javascript."
+		]
+	},
+	{
+        "ID": 5,
+        "name": "Bootstrap",
+        "picture": "Pictures/Connaissances/bootstrap.png",
+		"description": [
+            "Bootstrap est une collection d'outils utilisée lors de la création de sites webs. Étant flexible, performant et compatible avec les navigateurs les plus populaires, Bootstrap est devenu très populaire et fait parti des projets open source les plus populaires sur GitHub."
+		]
+		},
+	{
+        "ID": 7,
+        "name": "MongoDB - En apprentissage",
+        "picture": "Pictures/Connaissances/mongodb.png",
+		"description": [
+            "MongoDB est un système de gestion de base de donnée en opposition avec le SQL. La majeure différence entre ces deux structures est que MongoDB nécessite pas de schéma prédéfini de donnée, nécessitant aucune table, employant des objets de format BSON à la place. Cela permet également à chacune des structures d'un même vecteur d'avoir des attributs différents, le seul obligatoire étant la clé primaire.",
+			"Cette connaissance n'est pas encore suffisamment acquise, mais elle est en apprentissage."
+		]
+	},
+	{
+        "ID": 8,
+        "name": "Express.js - En apprentissage",
+        "picture": "Pictures/Connaissances/express_js.png",
+		"description": [
+            "Express.js est un framework de node.js. Il est notamment utilisé au niveau du serveur, étant très performant grâce à l'efficacité de node.js.",
+			"Cette connaissance n'est pas encore suffisamment acquise, mais elle est en apprentissage."
+		]
+		},
+	{
+        "ID": 6,
+        "name": "AngularJS",
+        "picture": "Pictures/Connaissances/angular.jpg",
+		"description": [
+            "AngularJS est un framework JavaScript développé par Google. Ce language permet de créer des pages dynamique à l'aide de synchronisation automatique des modèles et des vues. De plus, AngularJS permet au code HTML d'utiliser des services souvent utiliser au niveau serveur, allégeant le développement au niveau du serveur."
+			]
+	},
+	{
+        "ID": 9,
+        "name": "Node.js - En apprentissage",
+        "picture": "Pictures/Connaissances/nodejs.png",
+		"description": [
+			"Node.js est une plate-forme écrite en JavaScript orientée utilisé au niveau du serveur. Étant événementiel, il permet de gérer de nombreuses requêtes simultanément et est très efficace, devenant de plus en plus populaire grâce à sa performance.",
+			"Cette connaissance n'est pas encore suffisamment acquise, mais elle est en apprentissage."
+			]
+	}
+	
+]

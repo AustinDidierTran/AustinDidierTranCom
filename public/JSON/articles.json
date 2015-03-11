@@ -1,0 +1,13 @@
+[
+    {
+        "ID": 0,
+        "date": "8 janvier 2015",
+        "title": "",
+        "content": [
+            "Bienvenue sur mon site web personnel! Sur cette page, il y a toutes mes informations personnelles professionnelles pertinentes. Vous y verrez mes expériences, mes connaissances ainsi que mon parcours scolaire. Si jamais vous avez des questions ou que vous désirez me contacter pour tout autre raison, il est possible de me rejoindre via les réseaux sociaux avec les icons dans le coin supérieur droit. Si vous préférez des moyens plus traditionnels tel le téléphone et les courriels, ces informations sont disponibles en pied de page.",
+			"Cette page est conçu à l'aide de HTML et de CSS, ainsi que du langage AngularJS. De plus, les données sont stockées à l'intérieur de fichiers JSON. Mon objectif de développement pour ce site est d'intégrer une base de donnée MongoDB et de gérer les requêtes serveurs à l'aide de node.js.",
+            "Votre opinion m'importe beaucoup, n'hésitez pas à me faire parvenir vos commentaires!"
+        ],
+        "picture": "Pictures/Articles/Accueil.jpg"
+    }
+]

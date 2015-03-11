@@ -1,16 +1,14 @@
-doctype
-html(ng-app="app")
-    head
-        title Austin-Didier Tran
-        link(rel="stylesheet", href="/css/style.css")
-        link(rel="stylesheet", href="/vendor/bootstrap/dist/css/bootstrap.css")
-    body(ng-controller="mainCtrl as mainCtrl")
-        h1 Austin-Didier Tran
-        ul(class="nav nav-pills red" role="tablist")
-            li(ng-repeat="tab in tabs" ng-class="{active:mainCtrl.isSelected(tab.id)}")
-                a(href ng-click="mainCtrl.selectTab(tab.id)") {{tab.name}}
-        script(type="text/javascript", src="/vendor/angular/angular.js")
-        script(type="text/javascript", src="/vendor/jquery/dist/jquery.js")
-        script(type="text/javascript", src="/vendor/bootstrap/dist/js/bootstrap.js")
-        script(type="text/javascript", src="/app/app.js")
-        
+extends ../views/layout
+
+block main-content
+    div(class="row" ng-repeat="article in articles")
+        br
+        div(class="col-md-2")
+            img(ng-src="{{article.picture}}" class="picture")
+        div(class="col-md-10")
+            p(ng-repeat="contenu in article.content"){{contenu}}
+    
+    
+    
+    
+    

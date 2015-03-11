@@ -6,8 +6,8 @@ var express = require('express'),
     mongoose = require('mongoose');
 
 var compile = function(str, path) {
-    return stylus(str).set('filename', path);
-}
+        return stylus(str).set('filename', path);
+    }
 
 app.set('view engine', 'jade');
 
@@ -20,8 +20,12 @@ app.use(stylus.middleware(
 
 app.use(express.static(rootPath + '/public'));
 
+app.get('/:name', function(req, res) {
+    res.render(req.params.name);
+});
 app.get('/', function(req, res) {
     res.render('index');
 });
+
 
 app.listen(process.env.PORT);

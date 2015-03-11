@@ -1,0 +1,14 @@
+[
+    {
+        "ID": 0,
+        "name": "Phone",
+        "content": "819 580-2378",
+        "picture": "Pictures/Footer/phone.png"
+    },
+	{
+        "ID": 1,
+        "name": "Email",
+        "content": "tran.austin.didier@gmail.com",
+        "picture": "Pictures/Footer/mail.png"
+    }
+]

@@ -1,0 +1,16 @@
+extends ../views/layout
+
+block main-content
+    div(class="row" ng-repeat="connaissance in connaissances")
+        br
+        div(class="col-md-2")
+            br
+            img(ng-src="{{connaissance.picture}}" class="picture")
+        div(class="col-md-10")
+            h3 {{connaissance.name}}
+            p(ng-repeat="content in connaissance.description") {{content}}
+    
+    
+    
+    
+    

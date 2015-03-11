@@ -1,0 +1,24 @@
+doctype
+html(ng-app="app")
+    head
+        title Austin-Didier Tran
+        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet", href="/vendor/bootstrap/dist/css/bootstrap.css")
+    body(ng-controller="mainController as mainCtrl")
+        div(id="content")
+            div(class="row")
+                div(class="col-md-8")
+                    a(href="index")
+                        h1 Austin-Didier Tran
+                div(class="col-md-4")
+                    a(ng-repeat="social in socials" ng-href="{{social.link}}")
+                        img(ng-src="{{social.picture}}" class="icon")
+            div(class="row")
+            ul(class="nav nav-pills red" role="tablist")
+                li(ng-repeat="tab in tabs" ng-class="{active:mainCtrl.isSelected(tab.ID)}")
+                    a(ng-href="/{{tab.name}}" ng-click="mainCtrl.selectTab(tab.ID)") {{tab.value}}
+            block main-content
+            script(type="text/javascript", src="/vendor/angular/angular.js")
+            script(type="text/javascript", src="/vendor/jquery/dist/jquery.js")
+            script(type="text/javascript", src="/vendor/bootstrap/dist/js/bootstrap.js")
+            script(type="text/javascript", src="/app/app.js")

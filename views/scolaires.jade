@@ -1,0 +1,18 @@
+extends ../views/layout
+
+block main-content
+    div(class="row" ng-repeat="scolaire in scolaires")
+        div(class="col-md-2")
+            br
+            br
+            img(ng-src="{{scolaire.picture}}" class="picture")
+        div(class="col-md-10")
+            h4 {{scolaire.institution}}
+            h5 {{scolaire.field}}
+            h5 {{scolaire.duration}}
+            p(ng-repeat="content in scolaire.description") {{content}}
+    
+    
+    
+    
+    

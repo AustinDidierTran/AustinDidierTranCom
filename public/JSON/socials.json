@@ -1,0 +1,20 @@
+[
+    {
+        "ID": 0,
+        "name": "Facebook",
+        "picture": "Pictures/Social/Facebook.png",
+        "link": "https://www.facebook.com/austin.didier.tran"
+    },
+    {
+        "ID": 1,
+        "name": "LinkedIn",
+        "picture": "Pictures/Social/LinkedIn.png",
+        "link": "https://www.linkedin.com/profile/view?id=234718089&trk=nav_responsive_tab_profile_pic"
+    },
+    {
+        "ID": 2,
+        "name": "Twitter",
+        "picture": "Pictures/Social/Twitter.png",
+        "link": "https://twitter.com/Austin_Didier"
+    }
+	]

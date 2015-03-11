@@ -1,0 +1,40 @@
+[
+	{
+		"ID": 0,
+		"employer": "Groupe de Courtage Omni Ltée",
+		"location": "Sherbrooke",
+		"duration": "Été 2014",
+		"title": "Marchandiseur",
+		"picture": "Pictures/Experiences/omni.png",
+		"description": "En tant que marchandiseur, mon but est d'assister les représentants du Groupe de Courtage Omni Ltée. Je visite les épiceries, place les commandes effectuées par mon représentant et communique avec ce dernier afin de l'informer de toutes informations qu'il juge pertinente."
+	},
+	{
+		"ID": 1,
+		"employer": "Restaurant Chez Linh",
+		"location": "Sherbrooke",
+		"duration": "Depuis 2009",
+		"title": "Serveur",
+		"picture": "Pictures/Experiences/chezlinh.jpg",
+		"description": "En tant que serveur, je m'occupe de l'accueil ainsi que du service au table. De plus, avec l'expérience que j'ai maintenant, je suis chargé de former les nouveaux employés afin qu'ils deviennent autonomes dans leur nouveau travail."
+	},
+	{
+		"ID": 2,
+		"employer": "Séminaire de Sherbrooke",
+		"location": "Sherbrooke",
+		"duration": "Printemps 2012 à Automne 2014",
+		"title": "Entraîneur-Chef",
+		"picture": "Pictures/Experiences/barons.jpg",
+		"description": "En tant qu'entraîneur-chef dans une équipe scolaire, mon but est de promouvoir le sport qu'est l'ultimate et de développer les joueurs de mon équipe tout en leur offrant un environnement d'apprentissage agréable. Avec la première équipe que j'ai entraîné, j'ai gagné deux championnats de la saison ainsi qu'une médaille de bronze, une médaille d'argent ainsi qu'une médaille d'or. Maintenant, j'en suis avec ma deuxième équipe et j'en suis actuellement dans une phase de développement pour éventuellement viser une championnat de la saison et une médaille d'or en éliminatoires."
+	},
+	
+	{
+		"ID": 3,
+		"employer": "Nordia",
+		"location": "Sherbrooke",
+		"duration": "Été 2013",
+		"title": "Agent au Service à la Clientèle",
+		"picture": "Pictures/Experiences/nordia.jpg",
+		"description": "En tant qu'agent au service à la clientèle, je répondais aux appels de clients du service prépayé ainsi qu'aux appels de clients de service postpayé. Par la suite, j'écoutais les clients, je décelais son problème et je trouvais une solution qui allait satisfaire le client."
+	}
+	
+	]
