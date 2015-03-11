@@ -1,12 +1,8 @@
-extends ../views/layout
+extends ../public/views/layout
 
 block main-content
-    div(class="row" ng-repeat="article in articles")
-        br
-        div(class="col-md-2")
-            img(ng-src="{{article.picture}}" class="picture")
-        div(class="col-md-10")
-            p(ng-repeat="contenu in article.content"){{contenu}}
+    div(ng-view)
+    
     
     
     

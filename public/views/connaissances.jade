@@ -1,7 +1,5 @@
-extends ../views/layout
-
 block main-content
-    div(class="row" ng-repeat="connaissance in connaissances")
+    div(class="row" ng-repeat="connaissance in connaissances" ng-init="tab = 2")
         br
         div(class="col-md-2")
             br

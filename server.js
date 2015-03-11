@@ -20,10 +20,11 @@ app.use(stylus.middleware(
 
 app.use(express.static(rootPath + '/public'));
 
-app.get('/:name', function(req, res) {
-    res.render(req.params.name);
-});
-app.get('/', function(req, res) {
+app.get('/partials/*', function(req, res) {
+    console.log('Rendering partial...');
+        res.render(__dirname + '/public/views/' + req.params[0]);
+    });
+app.get('*', function(req, res) {
     res.render('index');
 });
 

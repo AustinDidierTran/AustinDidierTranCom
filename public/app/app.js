@@ -1,4 +1,4 @@
-var app = angular.module('app', []);
+var app = angular.module('app', ['ngResource', 'ngRoute']);
 
 app.controller('mainController', function($scope, $http, $location) {
    
@@ -44,6 +44,20 @@ app.controller('mainController', function($scope, $http, $location) {
     this.isSelected = function(tabSelected) {
         return this.tab === tabSelected;
     }
+    
+    
+        
 });
+
+app.config(function($routeProvider, $locationProvider){
+
+	$locationProvider.html5Mode(true);
+	$routeProvider
+		.when('/', { templateUrl: '/partials/main', controller:'mainController'})
+		.when('/experiences', { templateUrl: '/partials/experiences', controller:'mainController'})
+		.when('/connaissances', { templateUrl: '/partials/connaissances', controller:'mainController'})
+		.when('/scolaires', { templateUrl: '/partials/scolaires', controller:'mainController'});
+
+})
 
 console.log('Angular module initialized');
