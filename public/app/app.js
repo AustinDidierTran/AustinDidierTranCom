@@ -60,6 +60,12 @@ app.controller('mainController', function($scope, $http, $location) {
     
 });
 
+app.controller('tabController', function($scope){
+	
+});
+
+
+
 app.factory('mvConnaissance', function($scope, $http, $q){
 	return{
 		
