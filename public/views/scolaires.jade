@@ -1,7 +1,8 @@
 block main-content
-    div(class="row" ng-repeat="scolaire in scolaires")
+    h2 Parcours Scolaire
+    div(class="row" ng-repeat="scolaire in scolaires" ng-init="tab = 3")
+        br
         div(class="col-md-2")
-            br
             br
             img(ng-src="{{scolaire.picture}}" class="picture")
         div(class="col-md-10")
@@ -9,8 +10,3 @@ block main-content
             h5 {{scolaire.field}}
             h5 {{scolaire.duration}}
             p(ng-repeat="content in scolaire.description") {{content}}
-    
-    
-    
-    
-    

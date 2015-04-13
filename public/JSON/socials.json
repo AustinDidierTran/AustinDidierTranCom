@@ -16,5 +16,11 @@
         "name": "Twitter",
         "picture": "Pictures/Social/Twitter.png",
         "link": "https://twitter.com/Austin_Didier"
+    },
+    {
+        "ID": 2,
+        "name": "Wordpress",
+        "picture": "Pictures/Social/wordpress.png",
+        "link": "austindidiertran.wordpress.com"
     }
 	]
